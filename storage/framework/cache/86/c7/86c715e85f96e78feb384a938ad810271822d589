@@ -1,0 +1,21 @@
+1580407686a:1:{s:16:"site/submenu.htm";a:6:{s:8:"fileName";s:16:"site/submenu.htm";s:7:"content";s:392:"[viewBag]
+snippetCode = "submenu"
+snippetName = "Submenu 2nd level"
+==
+<div class="section-blk sub">
+    <div class="container-fluid subnav">
+        <div class="row">
+        {% for item in staticMenuSub.menuItems %}
+            <div class="col{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        {% endfor %}
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1580317335;s:6:"markup";s:321:"<div class="section-blk sub">
+    <div class="container-fluid subnav">
+        <div class="row">
+        {% for item in staticMenuSub.menuItems %}
+            <div class="col{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        {% endfor %}
+        </div>
+    </div>
+</div>";s:4:"code";N;s:7:"viewBag";a:2:{s:11:"snippetCode";s:7:"submenu";s:11:"snippetName";s:17:"Submenu 2nd level";}}}

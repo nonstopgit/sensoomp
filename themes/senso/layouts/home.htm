@@ -1,0 +1,32 @@
+description = "landing"
+
+[staticPage]
+useContent = 1
+default = 0
+
+[staticMenu]
+code = "menu_sl"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        {% partial 'site/head_default' %}
+    </head>
+    <body>
+
+        {% partial 'site/header' %}
+
+        {repeater name="slider" label="Slider" prompt="Add another content section" tab="Slider"}
+            {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
+            {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
+        {/repeater}
+        {% partial 'site/slider' %}
+        
+        {% component 'staticPage' %}
+
+        {% partial 'site/footer' %}
+
+        <!-- Javascript -->
+        {% partial 'site/scripts' %}
+    </body>
+</html>

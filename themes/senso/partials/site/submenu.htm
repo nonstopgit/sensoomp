@@ -1,0 +1,13 @@
+[viewBag]
+snippetCode = "submenu"
+snippetName = "Submenu 2nd level"
+==
+<div class="section-blk sub">
+    <div class="container-fluid subnav">
+        <div class="row">
+        {% for item in staticMenuSub.menuItems %}
+            <div class="col{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        {% endfor %}
+        </div>
+    </div>
+</div>

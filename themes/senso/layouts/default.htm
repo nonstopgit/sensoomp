@@ -1,0 +1,36 @@
+description = "default layout"
+
+[staticPage]
+useContent = 1
+default = 1
+
+[staticMenu]
+code = "menu_sl"
+
+[staticMenu staticMenuSub]
+code = "storitvesub_sl"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        {% partial 'site/head_default' %}
+    </head>
+    <body>
+
+        {% partial 'site/header' %}
+
+        {% partial 'site/heading-title' %}
+
+        {variable name="caption" label="Header Caption (under Title)" tab="Header" type="richeditor" size="small"}{/variable}
+        {variable name="headersize" label="Header Size" tab="Header" type="text"}{/variable}
+        {variable name="headerposition" label="Header Position" tab="Header" type="text"}{/variable}
+        {variable name="header" label="Header" tab="Header" type="mediafinder" mode="image"}{/variable}
+
+        {% component 'staticPage' %}
+
+        {% partial 'site/footer' %}
+
+        <!-- Javascript -->
+        {% partial 'site/scripts' %}
+    </body>
+</html>

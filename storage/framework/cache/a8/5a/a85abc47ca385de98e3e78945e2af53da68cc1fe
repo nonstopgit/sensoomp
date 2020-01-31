@@ -1,0 +1,13 @@
+1580407685a:1:{s:13:"site/menu.htm";a:5:{s:8:"fileName";s:13:"site/menu.htm";s:7:"content";s:234:"<nav>
+    <ul>
+    {% for item in staticMenu.menuItems %}
+        <li class="menu-item{% if item.isActive or item.isChildActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+    </ul>
+</nav>";s:5:"mtime";i:1574879607;s:6:"markup";s:234:"<nav>
+    <ul>
+    {% for item in staticMenu.menuItems %}
+        <li class="menu-item{% if item.isActive or item.isChildActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+    </ul>
+</nav>";s:4:"code";N;}}

@@ -1,0 +1,100 @@
+[viewBag]
+snippetCode = "gmap"
+snippetName = "Google Map"
+==
+<div id="map">
+</div>
+<style>
+#map {
+    width: 100%;
+    height: 600px;
+    background-color: #3b3b41;
+}
+</style>
+<script>
+  function initMap() {
+    var myLatlng = {lat: 45.806611, lng: 15.162828};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: myLatlng,
+      zoom: 16,
+      styles:
+        [
+          {
+              "featureType": "all",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": "-100"
+                  }
+              ]
+          },
+          {
+              "featureType": "administrative",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  }
+              ]
+          },
+          {
+              "featureType": "landscape",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.attraction",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.business",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.government",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.medical",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.school",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          }
+      ]
+    });
+    var marker = new google.maps.Marker({position: myLatlng, map: map});
+    /*map.setTilt(45);*/
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPW1aZx0FhSpBaVgfrWR8FnQ_PkvpB7MU&callback=initMap"></script>

@@ -1,0 +1,13 @@
+static-pages:
+    index: {  }
+    o-nas: {  }
+    storitve:
+        storitve-lasna-linija: {  }
+        storitve-moska-plesavost: {  }
+        storitve-zenska-plesavost: {  }
+        storitve-brazgotine: {  }
+        storitve-osvezitve: {  }
+    mikropigmentacija-lasisca: {  }
+    nese-delo: {  }
+    kontakt: {  }
+    404: {  }

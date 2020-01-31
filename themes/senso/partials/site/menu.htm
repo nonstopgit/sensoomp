@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+    {% for item in staticMenu.menuItems %}
+        <li class="menu-item{% if item.isActive or item.isChildActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+    </ul>
+</nav>

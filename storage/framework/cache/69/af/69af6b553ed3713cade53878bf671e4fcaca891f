@@ -1,0 +1,79 @@
+1580407685a:1:{s:12:"menu_sl.yaml";a:7:{s:8:"fileName";s:12:"menu_sl.yaml";s:7:"content";s:1666:"items:
+    -
+        title: Domov
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: index
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'O nas'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: o-nas
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Storitve
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: storitve
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Mikropigmentacija lasišča'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: mikropigmentacija-lasisca
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Naše delo'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: nese-delo
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Kontakt
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: kontakt
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: menu_sl
+";s:5:"mtime";i:1574879594;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

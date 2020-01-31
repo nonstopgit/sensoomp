@@ -1,0 +1,62 @@
+1580407685a:1:{s:15:"site/footer.htm";a:7:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:1133:"[viewBag]
+
+[staticMenuMultilingual]
+code = "menu_sl"
+==
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="cta position-relative">
+                    <p><a href="#" class="stretched-link">Rezervirajte si brezplačen posvet</a></p>
+                </div>
+            </div>
+            <div class="col">                
+                <div class="cta">
+                    Pokličite nas
+                    <p>+386 40 466 626</p>
+                </div>
+            </div>
+            <div class="col">
+                <p>
+                    {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
+                        <a href="{{ item.url }}">{{ item.title }}</a><br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col">
+                <p class="copy">Copyright &copy; 2019{% if today > 2019 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
+            </div>
+        </div>
+    </div>
+</footer>";s:5:"mtime";i:1574763997;s:6:"markup";s:1072:"<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="cta position-relative">
+                    <p><a href="#" class="stretched-link">Rezervirajte si brezplačen posvet</a></p>
+                </div>
+            </div>
+            <div class="col">                
+                <div class="cta">
+                    Pokličite nas
+                    <p>+386 40 466 626</p>
+                </div>
+            </div>
+            <div class="col">
+                <p>
+                    {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
+                        <a href="{{ item.url }}">{{ item.title }}</a><br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col">
+                <p class="copy">Copyright &copy; 2019{% if today > 2019 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
+            </div>
+        </div>
+    </div>
+</footer>";s:4:"code";N;s:7:"viewBag";a:0:{}s:22:"staticMenuMultilingual";a:1:{s:4:"code";s:7:"menu_sl";}}}

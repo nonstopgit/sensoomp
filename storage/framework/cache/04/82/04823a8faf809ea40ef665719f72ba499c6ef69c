@@ -1,0 +1,115 @@
+1580407684a:1:{s:13:"nese-delo.htm";a:7:{s:8:"fileName";s:13:"nese-delo.htm";s:7:"content";s:2301:"[viewBag]
+title = "Naše delo"
+url = "/nase-delo"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+caption = "<p>Reference</p>"
+header = "/content/header/header-nase-delo.jpg"
+==
+<figure>
+	<div class="section-blk">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col text-left">
+
+					<p><img src="/storage/app/media/content/before-after/01.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/02.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/03.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/04.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/05.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>
+<figure>
+	<div class="section-wht">
+		<div class="container-fluid">
+			<div class="row cta">
+				<div class="col-lg-6 text-left">
+
+					<h2>Popolna <strong>zaupnost</strong></h2>
+
+					<p>Ker za vas želimo le najboljše, stremimo k popolnosti. Za nas je mikropigmentacija popolna takrat, ko daje realističen videz. Ko je avtentična in je videti kot pravi lasje. Ljudje okoli vas bodo opazili, da se je na vas nekaj spremenilo, da ste videti drugače, bolje. Vendar ne bodo ugotovili kaj je tisto, kar daje vašemu videzu mladost, živahnost in privlačnost. Vedeli bodo le tisti, katerim boste povedali sami. Vaša skrivnost bo z nami varna.</p>
+
+					<h3>Naj bo vaša odločitev pravilna</h3>
+
+					<p>Temeljito razumevanje procesa mikropigmentacije lasišča je ključno, da bo vaša odločitev o postopku pravilna. Zato vsem našim strankam nudimo tri polurne brezplačne konzultacije, kjer vas podučimo o postopku in vseh njegovih vidikih. Tu se pogovorimo o vaših željah ter pričakovanjih in pogovorimo se, kaj lahko&nbsp;dejansko dosežemo. Z enim samim razlogom. Da se odločite prav. Da bo mikropigmentacija lasišča tista, ki vam bo spremenila življenje na bolje.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<p><img src="/storage/app/media/content/cta-home.png" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>";s:5:"mtime";i:1580407081;s:6:"markup";s:2116:"<figure>
+	<div class="section-blk">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col text-left">
+
+					<p><img src="/storage/app/media/content/before-after/01.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/02.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/03.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/04.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/05.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>
+<figure>
+	<div class="section-wht">
+		<div class="container-fluid">
+			<div class="row cta">
+				<div class="col-lg-6 text-left">
+
+					<h2>Popolna <strong>zaupnost</strong></h2>
+
+					<p>Ker za vas želimo le najboljše, stremimo k popolnosti. Za nas je mikropigmentacija popolna takrat, ko daje realističen videz. Ko je avtentična in je videti kot pravi lasje. Ljudje okoli vas bodo opazili, da se je na vas nekaj spremenilo, da ste videti drugače, bolje. Vendar ne bodo ugotovili kaj je tisto, kar daje vašemu videzu mladost, živahnost in privlačnost. Vedeli bodo le tisti, katerim boste povedali sami. Vaša skrivnost bo z nami varna.</p>
+
+					<h3>Naj bo vaša odločitev pravilna</h3>
+
+					<p>Temeljito razumevanje procesa mikropigmentacije lasišča je ključno, da bo vaša odločitev o postopku pravilna. Zato vsem našim strankam nudimo tri polurne brezplačne konzultacije, kjer vas podučimo o postopku in vseh njegovih vidikih. Tu se pogovorimo o vaših željah ter pričakovanjih in pogovorimo se, kaj lahko&nbsp;dejansko dosežemo. Z enim samim razlogom. Da se odločite prav. Da bo mikropigmentacija lasišča tista, ki vam bo spremenila življenje na bolje.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<p><img src="/storage/app/media/content/cta-home.png" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>";s:4:"code";N;s:7:"viewBag";a:7:{s:5:"title";s:10:"Naše delo";s:3:"url";s:10:"/nase-delo";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"caption";s:16:"<p>Reference</p>";s:6:"header";s:36:"/content/header/header-nase-delo.jpg";}s:12:"parsedMarkup";s:2116:"<figure>
+	<div class="section-blk">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col text-left">
+
+					<p><img src="/storage/app/media/content/before-after/01.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/02.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/03.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/04.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+
+					<p><img src="/storage/app/media/content/before-after/05.jpg" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>
+<figure>
+	<div class="section-wht">
+		<div class="container-fluid">
+			<div class="row cta">
+				<div class="col-lg-6 text-left">
+
+					<h2>Popolna <strong>zaupnost</strong></h2>
+
+					<p>Ker za vas želimo le najboljše, stremimo k popolnosti. Za nas je mikropigmentacija popolna takrat, ko daje realističen videz. Ko je avtentična in je videti kot pravi lasje. Ljudje okoli vas bodo opazili, da se je na vas nekaj spremenilo, da ste videti drugače, bolje. Vendar ne bodo ugotovili kaj je tisto, kar daje vašemu videzu mladost, živahnost in privlačnost. Vedeli bodo le tisti, katerim boste povedali sami. Vaša skrivnost bo z nami varna.</p>
+
+					<h3>Naj bo vaša odločitev pravilna</h3>
+
+					<p>Temeljito razumevanje procesa mikropigmentacije lasišča je ključno, da bo vaša odločitev o postopku pravilna. Zato vsem našim strankam nudimo tri polurne brezplačne konzultacije, kjer vas podučimo o postopku in vseh njegovih vidikih. Tu se pogovorimo o vaših željah ter pričakovanjih in pogovorimo se, kaj lahko&nbsp;dejansko dosežemo. Z enim samim razlogom. Da se odločite prav. Da bo mikropigmentacija lasišča tista, ki vam bo spremenila življenje na bolje.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<p><img src="/storage/app/media/content/cta-home.png" alt="" class="fr-fic fr-dib img-fluid"></p>
+				</div></div></div></div>
+</figure>";}}

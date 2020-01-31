@@ -1,0 +1,14 @@
+[viewBag]
+==
+<div class="slider">
+    {% for slides in slider %}
+        <div class="slide" data-img="{{ slides.slide|media }}">
+            <div class="slide-text">
+                {{ slides.slidercaption|raw }}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<style>
+
+</style>
