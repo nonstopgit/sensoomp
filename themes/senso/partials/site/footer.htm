@@ -7,27 +7,33 @@ code = "menu_sl"
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <div class="cta position-relative">
+                <ul>
+                {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+                </ul>
+                {#<div class="cta position-relative">
                     <p><a href="#" class="stretched-link">Rezervirajte si brezplačen posvet</a></p>
-                </div>
-            </div>
-            <div class="col">                
-                <div class="cta">
-                    Pokličite nas
-                    <p>+386 40 466 626</p>
-                </div>
+                </div>#}
             </div>
             <div class="col">
-                <p>
-                    {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
-                        <a href="{{ item.url }}">{{ item.title }}</a><br>
-                    {% endfor %}
-                </p>
+                <h1>Lepotni studio SENSO</h1>
+                Kettejev drevored 7<br>
+                8000 Novo mesto<br>            
+                {#<div class="cta">
+                    Pokličite nas
+                    <p>+386 40 466 626</p>
+                </div>#}
+            </div>
+            <div class="col text-right social">
+                <a href="https://www.facebook.com/senso.for.man/" target="_blank"><i class="fab fa-facebook"></i></a>
+                &nbsp;
+                <a href="https://www.facebook.com/senso.for.man/" target="_blank"><i class="fab fa-instagram"></i></a><br>
             </div>
         </div>
         <div class="row">
              <div class="col">
-                <p class="copy">Copyright &copy; 2019{% if today > 2019 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
+                <p class="copy">Copyright &copy; Lepotni salon Senso 2019{% if today > 2019 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
             </div>
         </div>
     </div>

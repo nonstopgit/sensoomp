@@ -1,14 +1,11 @@
 [viewBag]
 ==
-<div class="slider">
+<div class="slider test">
     {% for slides in slider %}
-        <div class="slide" data-img="{{ slides.slide|media }}">
+        <div class="slide" {#data-img="{{ slides.slide|media }}"#} style="background: url('{{ slides.slide|media }}'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;">
             <div class="slide-text">
                 {{ slides.slidercaption|raw }}
             </div>
         </div>
     {% endfor %}
 </div>
-<style>
-
-</style>

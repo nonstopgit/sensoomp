@@ -1,47 +1,67 @@
 items:
     -
         title: 'Lasna linija'
+        nesting: ''
         type: url
         url: /sl/storitve/lasna-linija
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Moška plešavost'
+        nesting: ''
         type: url
         url: /sl/storitve/moska-plesavost
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Ženska plešavost'
+        nesting: ''
         type: url
         url: /sl/storitve/zenska-plesavost
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Brazgotine
+        nesting: ''
         type: url
         url: /sl/storitve/brazgotine
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Osvežitve
+        nesting: ''
         type: url
         url: /sl/storitve/osvezitve
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-name: storitvesub_sl
+name: storitvesub-sl

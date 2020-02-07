@@ -4,11 +4,11 @@ $(document).ready(function() {
 	  $(this).toggleClass('opened');
 	  $('nav').slideToggle('fast');
 	});
-
+/*
 	$.each($('[data-img]'), function() {
 		var $that = $(this);
 		$that.css('background', 'url("' + $that.attr('data-img') + '") no-repeat center center').removeAttr('data-img');
-	});
+	});*/
 });
 
 $(function(){
