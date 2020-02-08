@@ -76,4 +76,5 @@
   'RainLab\\Builder\\Components\\RecordList' => 'plugins/rainlab/builder/components/RecordList.php',
   'RainLab\\Builder\\Components\\RecordDetails' => 'plugins/rainlab/builder/components/RecordDetails.php',
   'RainLab\\Builder\\Models\\Settings' => 'plugins/rainlab/builder/models/Settings.php',
+  'RainLab\\Translate\\Models\\Attribute' => 'plugins/rainlab/translate/models/Attribute.php',
 );
