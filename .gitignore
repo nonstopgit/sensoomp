@@ -1,3 +1,9 @@
 .DS_Store
+*.log
+storage/cms/cache/
+storage/framework/cache
+storage/temp/public
+storage/cms/twig
+storage/framework/sessions
 plugins/
 .vscode/settings.json
