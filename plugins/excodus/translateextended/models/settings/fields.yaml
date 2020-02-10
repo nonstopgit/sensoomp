@@ -23,3 +23,8 @@ fields:
     comment: excodus.translateextended::lang.strings.homepage_redirect_comment
     type: switch
     default: true
+  force_prefix:
+    label: excodus.translateextended::lang.strings.force_prefix
+    comment: excodus.translateextended::lang.strings.force_prefix_comment
+    type: switch
+    default: true

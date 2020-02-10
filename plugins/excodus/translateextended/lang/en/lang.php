@@ -14,6 +14,8 @@ return [
         'prefer_user_session_comment'   => 'If enabled, language set in user session will have priority over preferred browser language. If disabled locale will be detected every time user re-enters the website.',
         'homepage_redirect'             => 'Homepage redirect',
         'homepage_redirect_comment'     => 'If enabled, locale shortcode will be added to homepage URL.',
+        'force_prefix'                  => 'Force language prefix',
+        'force_prefix_comment'          => 'If enabled, all GET requests for URLs without a shortcode will be prefixed with the locale shortcode',
         'localepicker_desc'             => 'Shows list of links to change front-end language.'
     ],
     'permissions' => [

@@ -7,11 +7,11 @@ snippetProperties[ctheme][default] = "blk"
 snippetProperties[ctheme][options][blk] = "blk"
 snippetProperties[ctheme][options][wht] = "wht"
 ==
-<div class="section-{{ ctheme }} sub-{{ ctheme }}">
+<div class="section-{{ ctheme }} sub-{{ ctheme }} sub">
     <div class="container-fluid subnav">
         <div class="row">
         {% for item in staticMenuSub.menuItems %}
-            <div class="col{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></div>
+            <div class="col{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></div>
         {% endfor %}
         </div>
     </div>

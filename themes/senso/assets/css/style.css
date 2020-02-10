@@ -4755,6 +4755,9 @@ button {
   background: #25252b;
   color: #ffffff;
 }
+.section-top a {
+  color: #ffffff;
+}
 
 .section-top ul {
   padding-left: 10px;
