@@ -78,4 +78,6 @@
   'RainLab\\Builder\\Models\\Settings' => 'plugins/rainlab/builder/models/Settings.php',
   'RainLab\\Translate\\Models\\Attribute' => 'plugins/rainlab/translate/models/Attribute.php',
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
+  'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
+  'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
 );

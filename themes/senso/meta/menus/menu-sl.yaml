@@ -39,13 +39,11 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Mikropigmentacija lasišča'
+        title: 'O postopku'
         nesting: '0'
         type: static-page
-        url: ''
         code: ''
         reference: mikropigmentacija-lasisca
-        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'

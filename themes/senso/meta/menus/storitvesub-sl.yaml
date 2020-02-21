@@ -52,14 +52,10 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: Osvežitve
-        nesting: ''
+        title: 'Vzpodbujanje rasti'
         type: url
-        url: /sl/storitve/osvezitve
+        url: /sl/storitve/vzpodbujanje-rasti
         code: ''
-        reference: ''
-        cmsPage: ''
-        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''

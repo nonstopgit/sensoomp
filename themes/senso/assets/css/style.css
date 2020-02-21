@@ -4540,11 +4540,14 @@ header a,
 footer a {
   color: #ffffff;
 }
-
+footer a {
+  text-decoration: underline;
+}
 header a:hover, header a:focus,
 footer a:hover,
 footer a:focus {
   color: #ffffff;
+  text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -4851,6 +4854,12 @@ button {
   text-decoration: none;
   background: rgba(0, 0, 0, 0.2);
 }
+.red {
+  color: #b80101;
+}
+.uline {
+  text-decoration: underline;
+}
 
 .section-blk, .sub-blk {
   background: #25242a;
@@ -5018,11 +5027,11 @@ header {
   z-index: 100;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   header {
-    /*padding: 10px 0;*/
+    padding: 10px 0;
   }
-}
+}*/
 
 @media (max-width: 960px) {
   .logo-img {
@@ -5128,6 +5137,10 @@ footer h3 {
   font-size: 24px;
   margin-bottom: 20px;
 }
+footer h2 {
+  font-size: 1.4em;
+  margin-bottom: .5em;
+}
 
 footer p {
   color: #ffffff;
@@ -5205,16 +5218,14 @@ nav ul li a {
 }
 nav ul li.active a {
   background: rgba(255, 255, 255, 0.7);
-  border-bottom: 3px solid #b80101;
-  padding: 80px 12px 22px 12px;
-}
-nav ul li.active a {
+  /*border-bottom: 3px solid #b80101;*/
+  padding: 80px 12px 25px 12px;
   color: #25252b;
 }
 nav ul li a:hover {
   background: rgba(0, 0, 0, 0.3);
-  border-bottom: 3px solid #b80101;
-  padding: 80px 12px 22px 12px;
+  /*border-bottom: 3px solid #b80101;*/
+  padding: 80px 12px 25px 12px;
   text-decoration: none;
   color: #fff;
 }
@@ -5258,7 +5269,7 @@ header.shrink {
   padding: 20px 12px 15px 12px;
 }
 .shrink nav li.active a, .shrink nav li.active a:hover, .shrink nav li a:hover {
-  padding: 20px 12px 12px 12px;
+  padding: 20px 12px 15px 12px;
 }
 
 .navbar, .shrink { 
@@ -5280,11 +5291,11 @@ header.shrink {
   position: relative;
 }
 
-@media (max-width: 960px) {
+/*@media (max-width: 960px) {
   .slider .slide {
-    /*height: 740px;*/
+    height: 740px;
   }
-}
+}*/
 
 @media (max-width: 768px) {
   .slider .slide {
@@ -5438,7 +5449,7 @@ blockquote {
 }
 .social {
   /*margin-top: 1em;*/
-  font-size: 3.5em;
+  font-size: 3em;
 }
 .social a:hover {
   color: #b80101;
