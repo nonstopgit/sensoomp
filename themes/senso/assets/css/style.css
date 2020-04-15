@@ -5422,26 +5422,30 @@ figure {
 }
 
 .section-quote {
-  background-color: #3b3b41;
+  background-color: #26242b;
 }
 .section-quote .row {
   padding: 2em 0;
 }
 .section-quote p {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.6em;
   line-height: normal;
   margin: 0;
+  text-align: justify;
 }
-.section-quote .hyp {
+/*.section-quote .hyp {
   color: rgba(238, 238, 238, 0.4);
   font-size: 200px;
   font-family: Georgia, serif;
   height: 80px;
   line-height: 150px;
-}
+}*/
 blockquote {
   padding: 2em;
+}
+.quote .qright {
+  padding-top: 34px;
 }
 
 .contact {

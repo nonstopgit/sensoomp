@@ -12,4 +12,5 @@ storage/cms/*
 storage/framework/sessions
 storage/framework/*
 plugins/*
+vendor/*
 .vscode/settings.json

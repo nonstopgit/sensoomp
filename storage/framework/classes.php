@@ -80,4 +80,9 @@
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
   'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
   'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
+  'vimirlab\\testimonials\\Plugin' => 'plugins/vimirlab/testimonials/Plugin.php',
+  'vimirlab\\testimonials\\Controllers\\testimonials' => 'plugins/vimirlab/testimonials/controllers/testimonials.php',
+  'VimirLab\\Testimonials\\Models\\Testimonial' => 'plugins/vimirlab/testimonials/models/Testimonial.php',
+  'VimirLab\\Testimonials\\Components\\Testimonials' => 'plugins/vimirlab/testimonials/components/Testimonials.php',
+  'VimirLab\\Testimonials\\Components\\Slider' => 'plugins/vimirlab/testimonials/components/Slider.php',
 );
