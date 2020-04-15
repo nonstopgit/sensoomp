@@ -76,4 +76,13 @@
   'RainLab\\Builder\\Components\\RecordList' => 'plugins/rainlab/builder/components/RecordList.php',
   'RainLab\\Builder\\Components\\RecordDetails' => 'plugins/rainlab/builder/components/RecordDetails.php',
   'RainLab\\Builder\\Models\\Settings' => 'plugins/rainlab/builder/models/Settings.php',
+  'RainLab\\Translate\\Models\\Attribute' => 'plugins/rainlab/translate/models/Attribute.php',
+  'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
+  'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
+  'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
+  'vimirlab\\testimonials\\Plugin' => 'plugins/vimirlab/testimonials/Plugin.php',
+  'vimirlab\\testimonials\\Controllers\\testimonials' => 'plugins/vimirlab/testimonials/controllers/testimonials.php',
+  'VimirLab\\Testimonials\\Models\\Testimonial' => 'plugins/vimirlab/testimonials/models/Testimonial.php',
+  'VimirLab\\Testimonials\\Components\\Testimonials' => 'plugins/vimirlab/testimonials/components/Testimonials.php',
+  'VimirLab\\Testimonials\\Components\\Slider' => 'plugins/vimirlab/testimonials/components/Slider.php',
 );

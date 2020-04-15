@@ -1,4 +1,16 @@
 .DS_Store
 *.log
-storage/framework/cache/
+*.psd
+*.PSD
+storage/cms/disabled.json
+storage/cms/cache/*
+storage/framework/classes.php
+storage/framework/cache/*
+storage/temp/public/*
+storage/cms/twig/*
+storage/cms/*
+storage/framework/sessions
+storage/framework/*
+plugins/*
+vendor/*
 .vscode/settings.json

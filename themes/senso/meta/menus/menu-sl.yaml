@@ -29,21 +29,21 @@ items:
         title: Storitve
         nesting: '1'
         type: static-page
+        url: ''
         code: ''
         reference: storitve
+        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Mikropigmentacija lasišča'
+        title: 'O postopku'
         nesting: '0'
         type: static-page
-        url: ''
         code: ''
         reference: mikropigmentacija-lasisca
-        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -75,4 +75,4 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-name: menu_sl
+name: menu-sl
