@@ -5444,6 +5444,9 @@ figure {
 blockquote {
   padding: 2em;
 }
+.quote h3 {
+  margin-bottom: 0;
+}
 .quote .qright {
   padding-top: 34px;
 }
