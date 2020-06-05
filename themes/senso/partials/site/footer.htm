@@ -6,35 +6,36 @@ code = "menu_sl"
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <ul>
-                {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
-                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-                </ul>
-                {#<div class="cta position-relative">
-                    <p><a href="#" class="stretched-link">Rezervirajte si brezplačen posvet</a></p>
-                </div>#}
-            </div>
-            <div class="col">
+            <div class="col-12 text-center col-md-6 text-md-left">
+                <a href="/"><img src="{{ 'assets/images/brand/logo.png'|theme }}" class="logo-img" alt="Senso"></a><br><br>
                 <h2>Lepotni studio SENSO</h2>
                 Kettejev drevored 7<br>
                 8000 Novo mesto<br>
-                Slovenia<br>           
+                Slovenia<br><br><br>    
                 {#<div class="cta">
                     Pokličite nas
                     <p>+386 40 466 626</p>
                 </div>#}
             </div>
-            <div class="col text-right social">
+            <div class="col-12 text-center col-md-3 text-md-left">
+                <ul>
+                {% for item in staticMenu.menuItems if not item.viewBag.isHidden%}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+                </ul><br><br>
+                {#<div class="cta position-relative">
+                    <p><a href="#" class="stretched-link">Rezervirajte si brezplačen posvet</a></p>
+                </div>#}
+            </div>
+            <div class="col-12 text-center col-md-3 text-md-right social">
                 <a href="https://www.facebook.com/senso.for.man/" target="_blank"><i class="fab fa-facebook"></i></a>
                 &nbsp;
                 <a href="https://www.facebook.com/senso.for.man/" target="_blank"><i class="fab fa-instagram"></i></a><br>
             </div>
         </div>
         <div class="row">
-             <div class="col">
-                <p class="copy">Copyright &copy; Lepotni salon Senso 2019{% if today > 2019 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
+             <div class="col-12 text-center col-md-4 text-md-left">
+                <p class="copy">Copyright &copy; Lepotni salon Senso 2020{% if today > 2020 %} - {{ "now"|date("Y") }}{% endif %} | Vse pravice pridržane.</p>
             </div>
         </div>
     </div>
