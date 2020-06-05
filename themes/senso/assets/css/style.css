@@ -4549,6 +4549,14 @@ footer a:focus {
   color: #ffffff;
   text-decoration: none;
 }
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer ul li {
+  list-style: none;
+  position: relative;
+}
 
 h1, h2, h3 {
   font-weight: 300;
@@ -4923,7 +4931,7 @@ button {
   padding: 20px 0 0 0;
 }
 
-.section-center h2 {
+.section-center .bigred {
   font-size: 56px;
   color: #b80101;
   /*font-weight: bold;*/
@@ -4936,7 +4944,7 @@ button {
 }
 
 @media (max-width: 768px) {
-  .section-center h2 {
+  .section-center .bigred {
     font-size: 42px;
   }
 }
@@ -5132,11 +5140,14 @@ footer {
   border-top: 2px #a8a8aa solid;
   padding: 40px 0 130px;
 }
+footer ul {
+
+}
 
 
 @media (max-width: 768px) {
   footer {
-    padding: 30px 0 60px;
+    padding: 2em 0 60px;
   }
 }
 
