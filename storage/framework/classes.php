@@ -85,6 +85,7 @@
   'VimirLab\\Testimonials\\Models\\Testimonial' => 'plugins/vimirlab/testimonials/models/Testimonial.php',
   'VimirLab\\Testimonials\\Components\\Testimonials' => 'plugins/vimirlab/testimonials/components/Testimonials.php',
   'VimirLab\\Testimonials\\Components\\Slider' => 'plugins/vimirlab/testimonials/components/Slider.php',
+<<<<<<< HEAD
   'System\\Classes\\PluginManager' => 'modules/system/classes/PluginManager.php',
   'System\\Classes\\PluginBase' => 'modules/system/classes/PluginBase.php',
   'System\\Classes\\ComposerManager' => 'modules/system/classes/ComposerManager.php',
@@ -188,4 +189,7 @@
   'Backend\\Helpers\\Backend' => 'modules/backend/helpers/Backend.php',
   'Backend\\Models\\BrandSetting' => 'modules/backend/models/BrandSetting.php',
   'Backend\\Models\\EditorSetting' => 'modules/backend/models/EditorSetting.php',
+=======
+  'flynsarmy\\idehelper\\Plugin' => 'plugins/flynsarmy/idehelper/Plugin.php',
+>>>>>>> f30f0f395057285f376fa8c74f45578e76bd4832
 );
