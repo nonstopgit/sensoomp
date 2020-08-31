@@ -85,4 +85,5 @@
   'VimirLab\\Testimonials\\Models\\Testimonial' => 'plugins/vimirlab/testimonials/models/Testimonial.php',
   'VimirLab\\Testimonials\\Components\\Testimonials' => 'plugins/vimirlab/testimonials/components/Testimonials.php',
   'VimirLab\\Testimonials\\Components\\Slider' => 'plugins/vimirlab/testimonials/components/Slider.php',
+  'flynsarmy\\idehelper\\Plugin' => 'plugins/flynsarmy/idehelper/Plugin.php',
 );
