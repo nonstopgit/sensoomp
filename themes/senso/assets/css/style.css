@@ -5453,7 +5453,8 @@ figure {
   text-align: justify;
 }
 .section-quote .hyp {
-  text-align: center;
+  text-align: right;
+  font-size: 1em;
   padding-top: .3em;
 }
 .section-quote .hyp a {
@@ -5473,6 +5474,13 @@ blockquote {
 }
 .quote .qright {
   padding-top: 34px;
+}
+
+.cards a {
+  text-decoration: none;
+}
+.cards a:hover div.row {
+  background-color: #ddd;
 }
 
 .contact {

@@ -52,9 +52,9 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Vzpodbujanje rasti'
+        title: 'Spodbujanje rasti'
         type: url
-        url: /sl/storitve/vzpodbujanje-rasti
+        url: /sl/storitve/spodbujanje-rasti
         code: ''
         viewBag:
             isHidden: '0'
