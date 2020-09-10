@@ -14,8 +14,8 @@ $(document).ready(function() {
 $(function(){
 	
 	// nav shrink
-	if ($('.subnav').length) {
-		var subTop = $('.subnav').position();
+	if ($('.sub-blk').length) {
+		var subTop = $('.sub-blk').position();
 		$(window).scroll(function(){
 			var aTop = 50;
 			if($(this).scrollTop()>=aTop){

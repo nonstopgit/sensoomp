@@ -64,4 +64,6 @@
   'Indikator\\Backend\\ReportWidgets\\Cache' => 'plugins/indikator/backend/reportwidgets/Cache.php',
   'RainLab\\Pages\\FormWidgets\\MenuItems' => 'plugins/rainlab/pages/formwidgets/MenuItems.php',
   'Rainlab\\Pages\\FormWidgets\\MenuItemSearch' => 'plugins/rainlab/pages/formwidgets/MenuItemSearch.php',
+  'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
+  'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
 );
