@@ -73,7 +73,7 @@ class InlineTest extends TestCase
     public function testParsePhpConstantThrowsExceptionOnInvalidType()
     {
         $this->expectException('Symfony\Component\Yaml\Exception\ParseException');
-        $this->expectExceptionMessageRegExp('#The string "!php/const PHP_INT_MAX" could not be parsed as a constant.*#');
+        $this->expectExceptionMessageMatches('#The string "!php/const PHP_INT_MAX" could not be parsed as a constant.*#');
         Inline::parse('!php/const PHP_INT_MAX', Yaml::PARSE_EXCEPTION_ON_INVALID_TYPE);
     }
 
@@ -675,7 +675,7 @@ class InlineTest extends TestCase
     public function testParseInvalidBinaryData($data, $expectedMessage)
     {
         $this->expectException('Symfony\Component\Yaml\Exception\ParseException');
-        $this->expectExceptionMessageRegExp($expectedMessage);
+        $this->expectExceptionMessageMatches($expectedMessage);
 
         Inline::parse($data);
     }
@@ -693,7 +693,7 @@ class InlineTest extends TestCase
     public function testNotSupportedMissingValue()
     {
         $this->expectException('Symfony\Component\Yaml\Exception\ParseException');
-        $this->expectExceptionMessage('Malformed inline YAML string: {this, is not, supported} at line 1.');
+        $this->expectExceptionMessage('Malformed inline YAML string: "{this, is not, supported}" at line 1.');
         Inline::parse('{this, is not, supported}');
     }
 
@@ -841,5 +841,15 @@ class InlineTest extends TestCase
             [['' => 'foo'], '{!php/const : foo}'],
             [['' => 'foo', 'bar' => 'ccc'], '{!php/const  : foo, bar: ccc}'],
         ];
+    }
+
+    public function testParsePositiveOctalNumberContainingInvalidDigits()
+    {
+        self::assertSame(342391, Inline::parse('0123456789'));
+    }
+
+    public function testParseNegativeOctalNumberContainingInvalidDigits()
+    {
+        self::assertSame(-342391, Inline::parse('-0123456789'));
     }
 }

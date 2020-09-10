@@ -1,7 +1,15 @@
 <nav>
     <ul>
     {% for item in staticMenu.menuItems %}
-        <li class="menu-item{% if item.isActive or item.isChildActive %} active{% endif %}"><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
+        <li class="menu-item{% if item.isActive or item.isChildActive %} active{% endif %}"><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+        {% if item.title == 'Storitve' %}
+            <ul class="d-md-none navsub">
+                {% for itemsub in staticMenuSub.menuItems %}
+                    <li class="{% if itemsub.isActive %} active{% endif %}"><a href="{{ itemsub.url }}" title="{{ itemsub.title }}">{{ itemsub.title }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        </li>
     {% endfor %}
     </ul>
 </nav>

@@ -2,6 +2,8 @@
 *.log
 *.psd
 *.PSD
+storage/
+storage/*
 storage/cms/disabled.json
 storage/cms/cache/*
 storage/framework/classes.php
@@ -11,6 +13,8 @@ storage/cms/twig/*
 storage/cms/*
 storage/framework/sessions
 storage/framework/*
+plugins/
 plugins/*
+vendor/
 vendor/*
 .vscode/settings.json

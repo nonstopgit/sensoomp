@@ -8,6 +8,7 @@ This file is mostly copied from RainLab\Pages\Classes\Snippet
 
 use ApplicationException;
 use Cms\Classes\CmsException;
+use Lang;
 use RainLab\Pages\Classes\Snippet;
 use RainLab\Pages\Classes\SnippetManager;
 use Cms\Classes\Controller as CmsController;
@@ -48,8 +49,6 @@ class SnippetParser
             $pattern = preg_quote($snippetDeclaration);
             $markup = mb_ereg_replace($pattern, $generatedMarkup, $markup);
         }
-
-        SnippetLoader::saveCachedSnippets();
 
         return $markup;
     }
