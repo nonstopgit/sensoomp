@@ -11,7 +11,7 @@ snippetProperties[ctheme][options][wht] = "wht"
     <div class="container-fluid subnav" data-aos="fade-up">
         <div class="row">
         {% for item in staticMenuSub.menuItems %}
-            <div class="col-6 col-md-4 col-lg{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></div>
+            <div class="col-12 col-md-4 col-lg{% if item.isActive %} active{% endif %}"><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></div>
         {% endfor %}
         </div>
     </div>

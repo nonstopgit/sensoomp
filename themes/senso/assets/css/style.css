@@ -4540,9 +4540,7 @@ header a,
 footer a {
   color: #ffffff;
 }
-footer a {
-  text-decoration: underline;
-}
+
 header a:hover, header a:focus,
 footer a:hover,
 footer a:focus {
@@ -5161,7 +5159,7 @@ footer {
   background: #25242a;
   color: #ffffff;
   border-top: 2px #a8a8aa solid;
-  padding: 40px 0 130px;
+  padding: 40px 0 130px;  
 }
 footer ul {
 
@@ -5171,6 +5169,7 @@ footer ul {
 @media (max-width: 768px) {
   footer {
     padding: 2em 0 60px;
+    font-size: .8em;
   }
 }
 
@@ -5499,7 +5498,7 @@ figure {
   font-size: 1.6em;
   line-height: normal;
   margin: 0;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 .section-quote .hyp {
   text-align: right;
@@ -5533,7 +5532,7 @@ blockquote {
 }
 
 .contact {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .social {
   /*margin-top: 1em;*/
