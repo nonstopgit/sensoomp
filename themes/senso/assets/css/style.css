@@ -5300,19 +5300,19 @@ nav ul li a, .logo-img {
     font-size: 18px;
     border-top: 1px rgba(255, 255, 255, 0.2) solid;
   }
-  nav ul li.active .navsub li a {
+  nav ul li.active .navsub li a, nav ul li .navsub li a {
     background-color: #25242a;
-    padding: .6em 1.6em;
+    padding: .3em 1.6em;
     color: #ffffff;
   }
-  nav ul li.active .navsub li a:hover, nav ul li.active .navsub li.active a:hover {
+  nav ul li.active .navsub li a:hover, nav ul li.active .navsub li.active a:hover, nav ul li .navsub li a:hover, nav ul li .navsub li.active a:hover {
     background: rgba(0, 0, 0, 0.3);
-    padding: .6em 1.6em;
+    padding: .3em 1.6em;
     color: #ffffff;
   }
-  nav ul li.active .navsub li.active a {
+  nav ul li.active .navsub li.active a, nav ul li .navsub li.active a {
     background: rgba(255, 255, 255, 0.7);
-    padding: .6em 1.6em;
+    padding: .3em 1.6em;
     color: #25252b;
   }
 }
