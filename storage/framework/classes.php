@@ -67,4 +67,6 @@
   'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
   'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
+  'system\\Controllers\\settings' => 'modules/system/controllers/settings.php',
+  'system\\Controllers\\updates' => 'modules/system/controllers/updates.php',
 );

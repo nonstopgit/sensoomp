@@ -17,4 +17,6 @@ plugins/
 plugins/*
 vendor/
 vendor/*
+modules/
+modules/*
 .vscode/settings.json
