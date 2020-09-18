@@ -67,6 +67,7 @@
   'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
   'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins/rainlab/translate/console/ScanCommand.php',
+<<<<<<< HEAD
   'System\\Classes\\PluginManager' => 'modules/system/classes/PluginManager.php',
   'System\\Classes\\PluginBase' => 'modules/system/classes/PluginBase.php',
   'System\\Classes\\ComposerManager' => 'modules/system/classes/ComposerManager.php',
@@ -195,4 +196,8 @@
   'Backend\\Widgets\\Search' => 'modules/backend/widgets/Search.php',
   'Backend\\Classes\\ListColumn' => 'modules/backend/classes/ListColumn.php',
   'System\\Helpers\\Cache' => 'modules/system/helpers/Cache.php',
+=======
+  'system\\Controllers\\settings' => 'modules/system/controllers/settings.php',
+  'system\\Controllers\\updates' => 'modules/system/controllers/updates.php',
+>>>>>>> d2e0a9be1623ff3038b53226e0329e82c295d901
 );
