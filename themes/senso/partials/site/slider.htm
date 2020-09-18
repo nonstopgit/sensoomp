@@ -3,8 +3,8 @@
 <div class="slider test">
     {% for slides in slider %}
         <div class="slide" {#data-img="{{ slides.slide|media }}"#} style="background: url('{{ slides.slide|media }}'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;">
-            <div class="slide-text" data-aos="fade-right">
-                {{ slides.slidercaption|raw }}
+            <div class="slide-text">
+                <h3>{{ slides.slidercaption|raw }}</h3>
             </div>
         </div>
     {% endfor %}

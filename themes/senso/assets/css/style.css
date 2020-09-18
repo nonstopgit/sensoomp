@@ -4716,7 +4716,7 @@ button {
 }
 
 .circle .circle-in {
-  border: 2px #b80101 solid;
+  border: 2px #a69c8a solid;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -4736,7 +4736,7 @@ button {
 }
 
 .circle .circle-in span {
-  color: #b80101;
+  color: #a69c8a;
   font-weight: bold;
   font-size: 48px;
   line-height: 44px;
@@ -4774,14 +4774,14 @@ button {
 
 .section-top ul li {
   list-style: none;
-  font-size: 18px;
+  /*font-size: 18px;*/
   position: relative;
   line-height: 24px;
 }
 
 @media (max-width: 768px) {
   .section-top ul li {
-    font-size: 16px;
+    /*font-size: 16px;*/
   }
 }
 
@@ -4844,7 +4844,7 @@ button {
   padding: 28px 0;
 }
 .sub-wht a {
-  color: #b80101;
+  color: #a69c8a;
   display: block;
   padding: 0.6em 1em;
   text-decoration: none;
@@ -4854,14 +4854,14 @@ button {
   padding: 0 0 2em 0;
 }
 .sub-wht a:hover {
-  color: #b80101;
+  color: #a69c8a;
   display: block;
   padding: 0.6em 1em;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
 }
 .red {
-  color: #b80101;
+  color: #a69c8a;
 }
 .uline {
   text-decoration: underline;
@@ -4936,14 +4936,15 @@ button {
 
 .section-center .bigred {
   font-size: 56px;
-  color: #b80101;
+  color: #a69c8a;
   /*font-weight: bold;*/
   margin: 0 0 0 10px;
   height: 100%;
   display: -ms-flexbox;
-  display: flex;
+  line-height: normal;
+  /*display: flex;
   -ms-flex-align: center;
-      align-items: center;
+      align-items: center;*/
 }
 
 @media (max-width: 768px) {
@@ -5022,14 +5023,14 @@ button {
 .section-bottom .sb-bottom p {
   margin: 0;
   color: #ffffff;
-  font-size: 18px;
+  /*font-size: 18px;*/
   text-align: justify;
 }
 
 @media (max-width: 768px) {
   .section-bottom .sb-bottom p {
     margin-bottom: 20px;
-    font-size: 16px;
+    /*font-size: 16px;*/
   }
 }
 
@@ -5290,7 +5291,7 @@ nav ul li a, .logo-img {
 }
 @media (max-width: 768px) {
   nav ul li a, nav ul li.active a, nav ul li a:hover {
-    padding: 20px 12px 15px 12px;
+    padding: 12px 12px 12px 12px;
     font-size: 19px;
   }
   nav ul li {
@@ -5446,7 +5447,7 @@ footer .cta {
   background: #3b3b41;
   padding: .8em 1em;
   font-size: 1.3em;
-  border-bottom: 3px solid #b80101;
+  border-bottom: 3px solid #a69c8a;
   color: #a2a2a2;
   height: 150px;
 }
@@ -5536,10 +5537,10 @@ blockquote {
 }
 .social {
   /*margin-top: 1em;*/
-  font-size: 2.6em;
+  font-size: 2.2em;
 }
 .social a:hover {
-  color: #b80101;
+  color: #a69c8a;
 }
 
 .cene .title{
