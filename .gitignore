@@ -13,6 +13,8 @@ storage/cms/twig/*
 storage/cms/*
 storage/framework/sessions
 storage/framework/*
+storage/
+storage/*
 plugins/
 plugins/*
 vendor/
