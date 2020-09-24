@@ -59,4 +59,6 @@
   'VimirLab\\Testimonials\\Components\\Slider' => 'plugins/vimirlab/testimonials/components/Slider.php',
   'Excodus\\TranslateExtended\\Components\\ExtendedLocalePicker' => 'plugins/excodus/translateextended/components/ExtendedLocalePicker.php',
   'VimirLab\\Testimonials\\Models\\Testimonial' => 'plugins/vimirlab/testimonials/models/Testimonial.php',
+  'Excodus\\TranslateExtended\\Classes\\ExtendedLocaleMiddleware' => 'plugins/excodus/translateextended/classes/ExtendedLocaleMiddleware.php',
+  'Excodus\\TranslateExtended\\Classes\\BrowserMatching' => 'plugins/excodus/translateextended/classes/BrowserMatching.php',
 );
