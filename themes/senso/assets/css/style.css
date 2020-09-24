@@ -5289,34 +5289,6 @@ nav ul li a, .logo-img {
     font-size: 19px;
   }
 }
-@media (max-width: 768px) {
-  nav ul li a, nav ul li.active a, nav ul li a:hover {
-    padding: 8px 12px 8px 12px;
-    font-size: 19px;
-  }
-  nav ul li {
-    margin: 0;
-    width: 100%;
-    padding: 0px;
-    font-size: 18px;
-    border-top: 1px rgba(255, 255, 255, 0.2) solid;
-  }
-  nav ul li.active .navsub li a, nav ul li .navsub li a {
-    background-color: #25242a;
-    padding: .3em 1.6em;
-    color: #ffffff;
-  }
-  nav ul li.active .navsub li a:hover, nav ul li.active .navsub li.active a:hover, nav ul li .navsub li a:hover, nav ul li .navsub li.active a:hover {
-    background: rgba(0, 0, 0, 0.3);
-    padding: .3em 1.6em;
-    color: #ffffff;
-  }
-  nav ul li.active .navsub li.active a, nav ul li .navsub li.active a {
-    background: rgba(255, 255, 255, 0.7);
-    padding: .3em 1.6em;
-    color: #25252b;
-  }
-}
 
 header.shrink {
   background: rgba(37, 36, 42, 1);
@@ -5344,6 +5316,36 @@ header.shrink {
   -moz-transition:all 0.2s ease; 
   -o-transition:all 0.2s ease;        
   transition:all 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  nav ul li a, nav ul li.active a, nav ul li a:hover, .shrink nav a, .shrink nav li.active a, .shrink nav li.active a:hover, .shrink nav li a:hover {
+    padding: 8px 12px 8px 12px;
+    font-size: 19px;
+  }
+  nav ul li {
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    font-size: 18px;
+    border-top: 1px rgba(255, 255, 255, 0.2) solid;
+  }
+  nav ul li.active .navsub li a, nav ul li .navsub li a {
+    background-color: #25242a;
+    padding: .3em 1.6em;
+    color: #ffffff;
+  }
+  nav ul li.active .navsub li a:hover, nav ul li.active .navsub li.active a:hover, nav ul li .navsub li a:hover, nav ul li .navsub li.active a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    padding: .3em 1.6em;
+    color: #ffffff;
+  }
+  nav ul li.active .navsub li.active a, nav ul li .navsub li.active a {
+    background: rgba(255, 255, 255, 0.7);
+    padding: .3em 1.6em;
+    color: #25252b;
+  }
+
 }
 
 .slider {
@@ -5441,6 +5443,19 @@ header.shrink {
   color: #fff;
   font-size: 2.5em;
   line-height: normal;
+}
+@media (max-width: 768px) {
+  .headerimage .text, .headerimagexl .text {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0 15px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    /*background: rgba(10, 122, 219, 0.6);*/
+    display: block;
+    width: 90%;
+  }
 }
 
 footer .cta {
