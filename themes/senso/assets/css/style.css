@@ -4779,11 +4779,11 @@ button {
   line-height: 24px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .section-top ul li {
-    /*font-size: 16px;*/
+    font-size: 16px;
   }
-}
+}*/
 
 .section-top ul li::after {
   position: absolute;
@@ -5162,9 +5162,9 @@ footer {
   border-top: 2px #a8a8aa solid;
   padding: 40px 0 130px;  
 }
-footer ul {
+/*footer ul {
 
-}
+}*/
 
 
 @media (max-width: 768px) {
@@ -5291,7 +5291,7 @@ nav ul li a, .logo-img {
 }
 @media (max-width: 768px) {
   nav ul li a, nav ul li.active a, nav ul li a:hover {
-    padding: 12px 12px 12px 12px;
+    padding: 8px 12px 8px 12px;
     font-size: 19px;
   }
   nav ul li {
@@ -5371,11 +5371,11 @@ header.shrink {
   }
 }
 
-@media (max-width: 640px) {
+/*@media (max-width: 640px) {
   .slider .slide {
-    /*height: 400px;*/
+    height: 400px;
   }
-}
+}*/
 
 .slide-text {
   position: absolute;
