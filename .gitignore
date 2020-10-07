@@ -4,6 +4,7 @@
 *.PSD
 storage/
 storage/*
+storage/logs/system.log
 storage/cms/disabled.json
 storage/cms/cache/*
 storage/framework/classes.php
